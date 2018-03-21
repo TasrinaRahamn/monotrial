@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #8C8C8C;
+    font-family: 'Playfair Display', serif;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    width: 20%;
+    margin-top: 50px;
+}
+.logo h1 {
+    color: black;
+    font-size: 38px;
+    letter-spacing: 8px;
+    font-weight: 100;
+    font-family: 'Inconsolata', monospace;
+}
+.navmenu {
+    float: right;
+    width: 65%;
+    margin-top: 50px;
+  
+}
+.navmenu ul{
+    list-style: none;
+    float: right;
+ }
+.navmenu ul li{
+    float: left;
+}
+.navmenu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+    padding: 10px 50px;
+ }
+.navmenu ul li:last-child a {
+    padding-right: 0px;
+}
+.navmenu ul li a:hover {
+    color: black;
+   
+}
+.slider img {
+    width: 100%;
+    margin-top: 50px;
+}
+h4{
+    margin: 15px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    font-weight: 100;
+    font-size: 36px;
+    margin-top: 30px;
+}
+p{
+    font-size: 17px;
+    line-height: 25px;
+    padding:45px 0px;
+}
+.sidespace{
+    padding: 0px 45px;
+}
+.serve{
+    overflow:hidden; 
+    margin-top: 50px;
+}
+.serv1{
+    float: left;
+    width: 40%;
+}
+.serv1:nth-child(odd) {
+    margin-right: 197px;
+}
+.form1{
+   overflow: hidden;
+    height: 270px;
+   background-color: #F3F3F3; 
+   text-align: center;
+}
+.sign{
+    padding: 40px 0px;
+}
+.form1 form{
+    position: relative;
+    width: 480px;
+    margin: 0 auto;
+}
+.form1 form input{
+    width: 445px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    font-size: 25px;
+    margin-left: 26px;
+
+}
+.form1 form button{
+    position: absolute;
+    background: transparent;
+    border:none;
+    right: 10px;
+    top:10px;
+
+}
+.load button{
+    background: transparent;
+    border:2px solid black;
+    padding: 18px 40px;
+    margin: 40px 420px;
+    
+}
+footer{
+      overflow: hidden;
+      height: 80px;
+      background-color: #F3F3F3; 
+      margin-top: 40px;
+}
+.left{ 
+    float: left;
+    width: 30%;
+    margin-top: 30px;
+}
+.left ul,.right ul{
+    list-style: none;
+}
+.left ul li,.right ul li{
+    float: left;
+}
+.left ul li a,.right ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0px 25px;
+    font-size: 16px;
+    color: #474747;
+}
+.right{
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+}
+.right ul {
+    float: right;
+}
